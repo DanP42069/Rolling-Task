@@ -1,0 +1,16 @@
+.navigation li{
+    background-color: orange;
+    flex-direction: column;
+    letter-spacing: 1px;
+    font-style: italic;
+    display: inline;
+
+
+}
+.navigation ul{
+    display: flex;
+    /* justify-content: space-around ;
+    align-items: center; */
+    
+}
+   

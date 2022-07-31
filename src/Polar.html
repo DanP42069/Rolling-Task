@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/Polar.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Polar</title>
+
+
+<link rel="icon" href="http://127.0.0.1:5500/src/favicon.ico"><link rel="stylesheet" href="http://127.0.0.1:5500/Polar.css?_cacheOverride=1659271696852"></head>
+<body>
+   <nav class="navigation">
+    
+    <ul>
+        <img src="./Polar_files/logo.png" alt="Logo" width="260" height="200">
+    <li>
+        <a href="http://127.0.0.1:5500/">Home</a>
+    </li>
+    <li>
+        <a href="http://127.0.0.1:5500/new">New Post</a>
+    </li>
+    <li>
+        <a href="http://127.0.0.1:5500/discover">Discover</a>
+    </li>
+    <li>
+        <a href="http://127.0.0.1:5500/settings">Settings</a>
+    </li>
+    </ul>
+   </nav>
+    <main>
+        <article>
+            <section>
+            <img src="./Polar_files/field-ge4d2466da_1920.jpg" alt="Post Picture" width="30%" height="50%">
+            <p><b>Dan </b><bdi>שלום, לכם!</bdi></p>
+            </section>
+            <section>
+            <summary>Comments</summary>
+              <p><b>Liron</b> <bdi>x</bdi></p>
+            </section>
+        </article>
+        <article>
+            <section>
+            <img src="./Polar_files/71afN2-guPL._SL1000_.jpg" alt="Post Picture" width="30%" height="50%">
+            <p><b>Dan </b><bdi>הגיע לי puerth tea cake, סוף סוף ! <br> לא חולק עם אף אחד</bdi></p>
+            </section>
+            <section>
+            <summary>Comments</summary>
+              <p><b>Noam</b> <bdi>תביא לי גם</bdi></p>
+            </section>
+        </article>
+
+    </main>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
