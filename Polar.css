@@ -1,28 +1,27 @@
-.navigation li{
-    flex-direction: column;
-    letter-spacing: 1px;
-    font-style: italic;
-    display: inline;
-
-
+.navigation li {
+	flex-direction: column;
+	letter-spacing: 1px;
+	font-style: italic;
+	display: inline;
 }
-.navigation ul{
-    font-size:xx-large;
-    display: flex;
-    justify-content: space-evenly ;
-    align-items:center
-    
-    
+.navigation ul {
+	font-size:large;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }
-.navigation{
-    background-color: orange;
-    border-style: dashed;
-    border-color: blue;
-    margin: 10px;
+.navigation {
+	background-color: orange;
+	border-style: dashed;
+	border-color: blue;
+	margin: 10px;
+    height: 100px;
 }
-.posts{
-display: flex;
-flex-direction: column;
-justify-content: center;
+.posts {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
-   
+section {
+    text-align: center;
+}
